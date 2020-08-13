@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <title></title>
+    <style>
+    .btn{
+      text-decoration: none;
+      font-size:2rem;
+      color:white;
+      padding:10px 20px 10px 20px;
+      margin:20px;
+      display:inline-block;
+      border-radius: 10px;
+      transition:all 0.1s;
+      text-shadow: 0px -2px rgba(0, 0, 0, 0.44);
+      font-family:'Anton', sans-serif;
+     }
+     .btn:active{
+       transform: translateY(3px);
+     }
+    .btn.blue{
+      background-color: #1f75d9;
+       border-bottom:5px solid #165195;
+     }
+     .btn.blue:active{
+        border-bottom:2px solid #165195;
+     }
+     .btn.pink{
+       background-color:pink;
+        border-bottom:5px solid #165195;
+      }
+      .btn.pink:active{
+         border-bottom:2px solid #b7706952;
+      }
+      .btn.gray{
+        background-color: gray;
+         border-bottom:5px solid #bcb9b985;
+       }
+       .btn.gray:active{
+          border-bottom:2px solid #65646473;
+       }
+       .btn.lemon{
+          background-color: yellow;
+           border-bottom:5px solid rgba(250, 250, 150, 1);
+         }
+         .btn.lemon:active{
+            border-bottom:2px solid rgb(241, 241, 1);
+         }
+
+    </style>
+  </head>
+  <body>
+    <a class="btn blue" href="#blue">blue</a>
+    <a class="btn pink" href="#pink">pink</a>
+    <a class="btn gray" href="#gray">gray</a>
+    <a class="btn lemon" href="#lemon">lemon</a>
+  </body>
+</html>
